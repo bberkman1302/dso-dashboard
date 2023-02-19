@@ -1,0 +1,86 @@
+.App {
+	background-color: white;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: flex-start;
+	margin: 0px;
+	min-width: 100vw;
+	color: white;
+}
+
+
+body{
+  background-color: rgb(246, 246, 246);
+}
+
+
+#dashwrap{
+  padding-bottom: 50px;
+  padding-top: 50px; 
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row; 
+  width: 100%;
+  background-color: rgb(246, 246, 246);
+  height: 100%;
+}
+
+#searchwrap{
+  display: flex;
+  column-gap: 20px;
+  row-gap: 35px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 50px; 
+  margin-right: 50px; 
+}
+
+#itemswrap{
+  width: 50%; 
+  display: flex;
+  height: max-content;
+  column-gap: 20px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 50px;
+  border-left: 1.5px solid black;
+}
+
+#dealwrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#selected-company{
+  color: rgb(16, 16, 16);
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-header{
+  color:rgb(34, 34, 34);
+  font-weight: bold;
+  margin-top: 30px;
+  padding-top: 30px;  
+  font-size: 30px; 
+  border-top: 1.5px solid black;
+}
+
+.information{
+  color: rgb(34, 34, 34);
+  font-size: 20px;
+  width: 90%;
+  margin-top: 20px; 
+}
+
+
+
+
+
+
+
+
+
+

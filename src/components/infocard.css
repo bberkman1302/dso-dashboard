@@ -1,0 +1,11 @@
+.cardtitle{
+  color: rgb(34, 34, 34);
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.cardinfo{
+  color: rgb(34, 34, 34);
+  margin-top: 10px;
+  font-size: 20px;
+}
